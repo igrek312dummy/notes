@@ -36,8 +36,9 @@ git push <remote-name> <local-branch-name>[:<remote-branch-name>]
 ```
 
 #### Push a branch and update upstream info for later pulls
+This creates a new branch on the remote server if none is found with the name, to push a branch as another branch's name, see above.
 ```console
-git push -u <remote-name> <remote-branch-name>
+git push -u <remote-name> <local-branch-name>
 ```
 
 ### Branching
