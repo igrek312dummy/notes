@@ -37,7 +37,7 @@ git push <remote-name> <local-branch-name>[:<remote-branch-name>]
 
 #### Push a branch and update upstream info for later pulls
 ```console
-git push -u <remote-name> <branch-name>
+git push -u <remote-name> <remote-branch-name>
 ```
 
 ### Branching
