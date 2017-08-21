@@ -1,3 +1,31 @@
+## Table of Contents
+- [Configuration](#configuration)
+    - [Useful git global configs](#useful-git-global-configs)
+- [Editing](#editing)
+    - [Rename/move a file](#renamemove-a-file)
+- [Commits](#commits)
+    - [Commit after adding all files to staging area](#commit-after-adding-all-files-to-staging-area)
+    - [Short status](#short-status)
+    - [Push a branch](#push-a-branch)
+    - [Push a branch and update upstream info for later pulls](#push-a-branch-and-update-upstream-info-for-later-pulls)
+- [Branching](#branching)
+    - [Create a branch and switch to it](#create-a-branch-and-switch-to-it)
+    - [Create a branch from remote and switch to it](#create-a-branch-from-remote-and-switch-to-it)
+    - [Create a branch from a tag and switch to it](#create-a-branch-from-a-tag-and-switch-to-it)
+- [Remote Work](#remote-work)
+    - [Track a remote branch from a local branch](#track-a-remote-branch-from-a-local-branch)
+    - [List all remote tracking branches](#list-all-remote-tracking-branches)
+    - [Fetch all remote repositories](#fetch-all-remote-repositories)
+    - [Delete a remote branch](#delete-a-remote-branch)
+- [Merging and Rebasing](#merging-and-rebasing)
+    - [Rebase without checking out](#rebase-without-checking-out)
+    - [Rebase onto](#rebase-onto)
+- [Tags](#tags)
+    - [Create a tag](#create-a-tag)
+    - [Push a tag or all newly-created tags](#push-a-tag-or-all-newly-created-tags)
+- [Logging](#logging)
+    - [Useful flags](#useful-flags)
+
 ### Configuration
 
 #### Useful git global configs
