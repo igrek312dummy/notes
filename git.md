@@ -74,6 +74,20 @@ git fetch --all
 #### Delete a remote branch
 ```console
 git push <remote-name> --delete <remote-branch-name>
+```
+
+### Merging and Rebasing
+
+#### Rebase without checking out
+```console
+git rebase <target> <source>
+```
+
+#### Rebase onto
+This rebases by taking changes from when `source` diverged from `parent` and applies it to `target`.
+```console
+git rebase --onto <target> <parent> <source>
+```
 
 ### Tags
 
