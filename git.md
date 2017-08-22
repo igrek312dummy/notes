@@ -50,7 +50,7 @@ git mv <oldfile> <newfile>
 
 #### Commit after adding all files to staging area
 ```console
-git commit -a -m <message>
+git commit -am <message>
 ```
 
 #### Short status
@@ -112,6 +112,12 @@ git push <remote-name> --delete <remote-branch-name>
 
 ### Merging and Rebasing
 
+#### Merge squash
+This will perform the merge and stage the changes as a single commit (deleting the merge history)
+```console
+git merge --squash <branch>
+```
+
 #### Rebase without checking out
 ```console
 git rebase <target> <source>
@@ -139,13 +145,12 @@ git push <remote-name> --tags
 ### Logging
 
 #### Useful flags
-| Flag            | Description                                    |
-| --------------- | ---------------------------------------------- |
-| `relative-date` | Uses relative dates instead of full timestamps |
-| `stat`          | Shows file change stats                        |
-| `abbrev-commit` | Shows only first 5 chars of the hash           |
-| `graph`         | Shows branch graph                             |
-| `oneline`       | Shows only hash and commit messages            |
-| `foobar`        | Hello there my name is Ferdy                   |
-
+| Flag            | Description                                                         |
+| --------------- | ------------------------------------------------------------------- |
+| `relative-date` | Uses relative dates instead of full timestamps                      |
+| `stat`          | Shows file change stats                                             |
+| `abbrev-commit` | Shows only first 5 chars of the hash                                |
+| `graph`         | Shows branch graph                                                  |
+| `oneline`       | Shows only hash and commit messages                                 |
+| `foobar`        | Hello there my name is Ferdy, and this is totally not a good commit |
 
