@@ -146,5 +146,6 @@ git push <remote-name> --tags
 | `abbrev-commit` | Shows only first 5 chars of the hash           |
 | `graph`         | Shows branch graph                             |
 | `oneline`       | Shows only hash and commit messages            |
+| `foobar`        | Hello there my name is Ferdy                   |
 
 
