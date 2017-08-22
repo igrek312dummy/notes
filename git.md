@@ -50,7 +50,7 @@ git mv <oldfile> <newfile>
 
 #### Commit after adding all files to staging area
 ```console
-git commit -a -m <message>
+git commit -am <message>
 ```
 
 #### Short status
@@ -111,6 +111,12 @@ git push <remote-name> --delete <remote-branch-name>
 ```
 
 ### Merging and Rebasing
+
+#### Merge squash
+This will perform the merge and stage the changes as a single commit (deleting the merge history)
+```console
+git merge --squash <branch>
+```
 
 #### Rebase without checking out
 ```console
